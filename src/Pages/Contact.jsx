@@ -26,8 +26,8 @@ const Contact = () => {
                   <FaPhone size={30} class="p-2 flex items-center bg-white rounded-full " />
               <a
               class='flex p-2 justify-between items-center w-full text-gray-300 text-lg hover:underline decoration-blue-500 duration-800'
-              href='tel:+919951018030'>
-              +91 9951018030
+              href='tel:+16822415585'>
+              +1 682 241 5585
             </a>
             </div>
             </div>
@@ -49,7 +49,11 @@ const Contact = () => {
               rel='noreferrer'
             >
             <FaGithub size={30} />
-            </a></div>
+            </a>
+            <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+            {/*<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="karthik-reddy-bheemireddy" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/karthik-reddy-bheemireddy?trk=profile-badge">Karthik Reddy Bheemireddy</a></div>
+            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="karthik-reddy-bheemireddy" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/karthik-reddy-bheemireddy?trk=profile-badge">Karthik Reddy Bheemireddy</a></div>*/}
+              </div>
         </div>
 
         </div>

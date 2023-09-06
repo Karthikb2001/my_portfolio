@@ -158,9 +158,10 @@ const About = () => {
               <div
                 class=" col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto lg:w-10/12 px-6 py-4 bg-gradient-to-r from-cyan-600 to-cyan-900 shadow-md shadow-[#040c16] hover:scale-110 duration-500"
               >
-                <h3 class="font-semibold text-lg mb-1">----------</h3>
-                <p class="leading-tight text-justify">
-                  -------------
+                <h3 class="font-semibold text-lg mb-1 text-right">Master of Engineering - Structures and Applied Mechanics</h3>
+                <p class="leading-tight font-medium text-right">
+                  2023 - 2025<br></br>
+                  University of Texas at Arlington<br></br>
                 </p>
               </div>
               <div class="col-start-5 col-end-6 md:mx-auto mr-10">
@@ -263,7 +264,7 @@ const About = () => {
               </div>
               </div>
         <div class='flex justify-center py-20 text-2xl'>
-          <p class='py-5'>Download my C. V. </p>
+          <p class='py-5'>Download my C. V. / Resume</p>
           <motion.div initial={{ opacity:0, scale: 0}}
                         whileInView={{opacity:1, scale:1}}
                         transition={{duration:1}} smooth><p class='px-12 '><a
